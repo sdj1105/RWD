@@ -1,0 +1,38 @@
+{
+  "name": "rwd",
+  "version": "0.1.0",
+  "description": "반응형 웹 프로젝트",
+  "main": "gulpfile.js",
+  "dependencies": {
+    "gulp": "^3.9.0"
+  },
+  "devDependencies": {
+    "gulp-autoprefixer": "^2.3.1",
+    "gulp-concat": "^2.5.2",
+    "gulp-connect": "^2.2.0",
+    "gulp-csslint": "^0.1.5",
+    "gulp-imagemin": "^2.2.1",
+    "gulp-jshint": "^1.11.0",
+    "gulp-sass": "^2.0.1",
+    "gulp-sourcemaps": "^1.5.2",
+    "gulp-uglify": "^1.2.0",
+    "gulp.spritesmith": "^3.8.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/seulbinim/RWD.git"
+  },
+  "keywords": [
+    "RWD",
+    "Sass",
+    "Susy",
+    "Gulp",
+    "Bourbon"
+  ],
+  "author": "deresa",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/seulbinim/RWD/issues"
+  },
+  "homepage": "https://github.com/seulbinim/RWD#readme"
+}
