@@ -44,10 +44,10 @@ gulp.task('sass', function() {
 	gulp.src(config.sass.src)
 		.pipe(sourcemaps.init())
 		.pipe(sass(config.sass.options).on('error', sass.logError))
-		.pipe(sourcemaps.write())
 		.pipe(csslint())
 		.pipe(csslint.reporter())
 		.pipe(autoprefixer(config.autoprefixer))
+		.pipe(sourcemaps.write())
 		.pipe(gulp.dest(config.sass.dest))
 		.pipe(connect.reload());
 });

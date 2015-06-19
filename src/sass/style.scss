@@ -1,3 +1,9 @@
-body {
-	color: tan
-}
+// * --------------------------------
+// * Sass 프레임워크 모듈 호출
+// * --------------------------------
+@import "../components/susy/sass/susy";
+@import "../components/bourbon/app/assets/stylesheets/bourbon";
+
+// * --------------------------------
+// * 스타일 코드
+// * --------------------------------

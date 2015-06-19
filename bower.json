@@ -1,0 +1,28 @@
+{
+  "name": "rwd",
+  "version": "0.1.0",
+  "homepage": "https://github.com/seulbinim/RWD",
+  "authors": [
+    "seulbinim <seulbinim@gmail.com>"
+  ],
+  "moduleType": [
+    "node"
+  ],
+  "keywords": [
+    "susy",
+    "bourbon"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "src/sass/components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "susy": "~2.2.5",
+    "bourbon": "~4.2.3"
+  }
+}
